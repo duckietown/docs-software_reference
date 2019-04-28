@@ -1,6 +1,6 @@
 # Byobu {#byobu status=ready}
 
-Assigned: Andrea Censi
+
 
 You need to learn to use Byobu. It will save you much time later.
 
@@ -8,7 +8,7 @@ You need to learn to use Byobu. It will save you much time later.
 
 [web-screen]: https://en.wikipedia.org/wiki/GNU_Screen
 
-## Advantages of using Byobu {status=draft}
+## Advantages of using Byobu {status=beta}
 
 TODO: To write
 

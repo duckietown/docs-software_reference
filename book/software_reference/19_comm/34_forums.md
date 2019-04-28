@@ -1,3 +1,3 @@
-# Discussion Forums {#forums status=draft}
+# Discussion Forums {#forums status=beta}
 
 TODO: Liam

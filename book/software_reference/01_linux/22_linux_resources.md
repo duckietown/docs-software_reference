@@ -1,4 +1,4 @@
-# Linux resources usage {#linux-resources-usage status=draft}
+# Linux resources usage {#linux-resources-usage status=beta}
 
 ## Measuring CPU usage using `htop`
 

@@ -1,4 +1,4 @@
-# How to install PyTorch on the Duckiebot {#pytorch-install status=beta}
+# How to install PyTorch on the Duckiebot {#pytorch-install status=ready}
 
 PyTorch is a Python deep learning library that's currently gaining a lot of traction, because it's a lot easier to debug and prototype (compared to TensorFlow / Theano).
 

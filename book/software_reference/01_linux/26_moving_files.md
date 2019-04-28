@@ -1,4 +1,4 @@
-# Moving files between computers  {#moving-files status=draft}
+# Moving files between computers  {#moving-files status=ready}
 
 ## `scp` {#scp}
 
@@ -13,6 +13,6 @@ To download a file named `file.txt` which is on `hostname` use this command:
 to download `file.txt` to `/path/where/you/whish/`. If you want to download in the current directory simply use:
     laptop $ scp ![hostname]:/path/to/file.txt .
 
-## `rsync` {#rsync}
+## `rsync` {#rsync status=beta}
 
 TODO: to write

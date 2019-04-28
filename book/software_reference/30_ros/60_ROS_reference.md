@@ -1,6 +1,6 @@
 # ROS installation and reference {#introduction_to_ros status=ready}
 
-Assigned: Liam Paull
+
 
 
 ## Install ROS {#install-ROS}
@@ -42,20 +42,20 @@ Initialize ROS:
     $ rosdep update
 
 
-## `rqt_console` {#rqt_console status=draft}
+## `rqt_console` {#rqt_console}
 
 TODO: to write
 
 
-## `roslaunch` {#roslaunch status=draft}
+## `roslaunch` {#roslaunch}
 
 TODO: to write
 
-## `rviz` {#rviz status=draft}
+## `rviz` {#rviz}
 
 TODO: to write
 
-## `rostopic` {#rostopic status=draft}
+## `rostopic` {#rostopic}
 
 TODO: to write
 
@@ -67,35 +67,35 @@ TODO: to write
 
 TODO: to write
 
-## `catkin_make` {#catkin_make status=draft}
+## `catkin_make` {#catkin_make}
 
 TODO: to write
 
-## `rosrun` {#rosrun status=draft}
+## `rosrun` {#rosrun}
 
 TODO: to write
 
-## `rostest` {#rostest status=draft}
+## `rostest` {#rostest}
 
 TODO: to write
 
-## `rospack` {#rospack status=draft}
+## `rospack` {#rospack}
 
 TODO: to write
 
-## `rosparam` {#rosparam status=draft}
+## `rosparam` {#rosparam}
 
 TODO: to write
 
-## `rosdep` {#rosdep status=draft}
+## `rosdep` {#rosdep}
 
 TODO: to write
 
-## `roswtf` {#roswtf status=draft}
+## `roswtf` {#roswtf}
 
 TODO: to write
 
-## `rosbag` {#rosbag status=draft}
+## `rosbag` {#rosbag}
 
 A bag is a file format in ROS for storing ROS message data. Bags, so named
 because of their .bag extension, have an important role in ROS.
@@ -163,7 +163,7 @@ The command
 re-indexes one or more broken bag files.
 
 
-## `roscore` {#roscore status=draft}
+## `roscore` {#roscore}
 
 TODO: to write
 

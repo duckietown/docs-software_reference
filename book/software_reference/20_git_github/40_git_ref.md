@@ -1,6 +1,6 @@
 # Source code control with Git {#git-reference status=ready}
 
-Assigned: Andrea Censi
+
 
 ## Background reading
 
@@ -99,13 +99,14 @@ Solution:
 
     $ git push --set-upstream origin ![branch name]
 
-## `git` {#git status=draft}
+## `git` {#git status=beta}
 
 TODO: to write
 
 
 ## `hub` {#hub}
 
+TODO: to write
 
 ### Installation
 

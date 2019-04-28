@@ -1,4 +1,4 @@
-# How to install Caffe and Tensorflow on the Duckiebot {#caffe-tensorflow-install status=beta}
+# How to install Caffe and Tensorflow on the Duckiebot {#caffe-tensorflow-install status=ready}
 
 Caffe and TensorFlow are popular deep learning libraries, and are supported by the Intel Neural Computing Stick (NCS).
 
@@ -7,7 +7,7 @@ Caffe and TensorFlow are popular deep learning libraries, and are supported by t
 ### Step 1: install dependencies and clone repository
 Install some of the dependencies first. The last command "sudo pip install ....." will cause some time.
 
-    sudo apt-get install -y gfortran cython 
+    sudo apt-get install -y gfortran cython
     sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler git
     sudo apt-get install --no-install-recommends libboost-all-dev
     sudo apt-get install -y python-dev libgflags-dev libgoogle-glog-dev liblmdb-dev libatlas-base-dev python-skimage
@@ -15,7 +15,7 @@ Install some of the dependencies first. The last command "sudo pip install .....
 
 Then, you need to clone the repo of caffe
 
-    cd 
+    cd
     git clone https://github.com/BVLC/caffe
 
 ### Step 2: compile Caffe
@@ -39,7 +39,7 @@ to
     INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
     LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib /usr/lib/arm-linux-gnueabihf/hdf5/serial/
 
-Next, you can start to compile caffe 
+Next, you can start to compile caffe
 
     make all
     make test
@@ -50,8 +50,8 @@ If you did't get any error above, congratulation on your success.
 Finally, please export pythonpath
 
     sudo vim ~/.bashrc
-    export PYTHONPATH=/home/"$USER"/caffe/python:$PYTHONPATH 
-   
+    export PYTHONPATH=/home/"$USER"/caffe/python:$PYTHONPATH
+
 ### Step 3: try it out
 Now, we can confirm whether the installation is successful.
 Download AlexNet and run caffe time
@@ -59,10 +59,10 @@ Download AlexNet and run caffe time
     cd ~/caffe/
     python scripts/download_model_binary.py models/bvlc_alexnet
     ./build/tools/caffe time -model models/bvlc_alexnet/deploy.prototxt -weights  models/bvlc_alexnet/bvlc_alexnet.caffemodel   -iterations 10
-    
+
 And you can see the benchmark of AlexNet on Pi3 caffe.
 
-## Tensorflow 
+## Tensorflow
 
 ### Step 1: install dependencies and clone repository
 
@@ -110,7 +110,7 @@ Modify some file:
 
     $ cd bazel
     $ sudo chmod u+w ./* -R
-    
+
     $ nano scripts/bootstrap/compile.sh
 
 To line 117, add "-J-Xmx500M":
@@ -150,7 +150,7 @@ Clone tensorflow repo (here I choose 1.4.0):
     $ cd ~/tf
     $ git clone -b r1.4 https://github.com/tensorflow/tensorflow.git
     $ cd tensorflow
- 
+
 (Incredibly important) Changes references of 64-bit program implementations (which we don't have access to) to 32-bit implementations.
 
     $ grep -Rl 'lib64' | xargs sed -i 's/lib64/lib/g'

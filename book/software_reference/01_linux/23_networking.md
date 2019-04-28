@@ -1,6 +1,6 @@
-# Networking tools {#networking status=draft}
+# Networking tools {#networking status=beta}
 
-Assigned: Andrea Censi
+
 
 <div class='requirements' markdown="1">
 

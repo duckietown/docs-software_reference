@@ -1,6 +1,6 @@
-# GNU/Linux general notions {#linux-general status=draft}
+# GNU/Linux general notions {#linux-general status=ready}
 
-Assigned: Andrea Censi
+
 
 ## Background reading
 
@@ -24,12 +24,12 @@ Assigned: Andrea Censi
 
 
 
-# Every-day Linux {#every-day-linux status=draft}
+# Every-day Linux {#every-day-linux status=ready}
 
 
 ## `man` {#man}
 
-This is an interface to the on-line reference manuals. Whenever you meet some unfamiliar commands, try use `man certain_command` before Googling. You will find it extremely clear, useful and self-contained. 
+This is an interface to the on-line reference manuals. Whenever you meet some unfamiliar commands, try use `man certain_command` before Googling. You will find it extremely clear, useful and self-contained.
 
 ## `cd` {#cd}
 
@@ -45,11 +45,11 @@ To go up one directory use:
 
 ## `sudo` {#sudo}
 
-Whenever you want to modify system files, you will need `sudo`. Commonly touched system files including `/etc`, `/opt` and so on. Since most of you have followed the guideline to use passwordless sudo, I would recommend that make sure what you are doing with sudo before you execute the command, otherwise you may need to reinstall the system. 
+Whenever you want to modify system files, you will need `sudo`. Commonly touched system files including `/etc`, `/opt` and so on. Since most of you have followed the guideline to use passwordless sudo, I would recommend that make sure what you are doing with sudo before you execute the command, otherwise you may need to reinstall the system.
 
 ## `ls` {#ls}
 
-List all the files and documents in the current directory. From `~/.bashrc`, we know some commonly used alias. See more by `man ls`. 
+List all the files and documents in the current directory. From `~/.bashrc`, we know some commonly used alias. See more by `man ls`.
 
 -- `la` for `ls -a` which will list out all files and documents including the hidden ones(whose name starts with a dot).
 
@@ -88,31 +88,31 @@ This command requires `sudo`. You can set a countdown to shutdown you machine. M
 
 Remove certain file. `rm -r` will also remove directories. More in `man rm`.
 
-# Users {#users-management status=draft}
+# Users {#users-management status=ready}
 
 
 
 ## `passwd` {#passwd}
 
-Update password of the current user. Old password needed. 
+Update password of the current user. Old password needed.
 
-# UNIX tools {#unix-tools status=draft}
+# UNIX tools {#unix-tools status=ready}
 
 
 ## `cat` {#cat}
 
-Cat some file will return you the content. More in `man cat`. 
+Cat some file will return you the content. More in `man cat`.
 
 
 ## `tee` {#tee}
 
-Read from standard input and write to standard output and files. More on `man tee`. 
+Read from standard input and write to standard output and files. More on `man tee`.
 
-## `truncate` {#truncate}
+## `truncate` {#truncate status=beta}
 
 TODO: to write
 
-# Linux disks and files {#linux-disk-and-files status=draft}
+# Linux disks and files {#linux-disk-and-files status=beta}
 
 ## `fdisk` {#fdisk}
 
@@ -152,11 +152,11 @@ TODO: to write
 
 TODO: to write
 
-## How to make a partition {#how-to-partition status=draft}
+## How to make a partition {#how-to-partition status=beta}
 
 TODO: to write
 
-# Other administration commands {#linux-other-admin status=draft}
+# Other administration commands {#linux-other-admin status=beta}
 
 
 ## `visudo` {#visudo}
@@ -177,14 +177,14 @@ TODO: to write
 
 
 
-# Make {#gnu-make status=draft}
+# Make {#gnu-make status=beta}
 
 ## `make` {#make}
 
 TODO: to write
 
 
-# Python-related tools {#python-tools status=draft}
+# Python-related tools {#python-tools status=beta}
 
 ## `virtualenv` {#virtualenv}
 
@@ -195,7 +195,7 @@ TODO: to write
 TODO: to write
 
 
-# Raspberry-PI commands {#RPI-commands status=draft}
+# Raspberry-PI commands {#RPI-commands status=ready}
 
 ## `raspi-config` {#raspi-config}
 
@@ -203,7 +203,7 @@ TODO: to write
 
     duckiebot $ sudo raspi-config
 
-## `vcgencmd` {#vcgencmd}
+## `vcgencmd` {#vcgencmd status=beta}
 
 TODO: to write
 
@@ -214,21 +214,21 @@ TODO: to write
     duckiebot $ raspistill -o somename.jpg
 
 
-## `jstest` {#jstest}
+## `jstest` {#jstest status=beta}
 
 TODO: to write
 
-## `swapon` {#swapon}
+## `swapon` {#swapon status=beta}
 
 TODO: to write
 
-## `mkswap` {#mkswap}
+## `mkswap` {#mkswap status=beta}
 
 TODO: to write
 
 
 
-# Users and permissions {#users-and-permissions status=draft}
+# Users and permissions {#users-and-permissions status=ready}
 
 ## `chmod` {#chmod}
 
@@ -236,20 +236,20 @@ TODO: to write
 
     $ sudo chmod +x FILE
 
-## `groups` {#groups}
+## `groups` {#groups status=beta}
 
 TODO: to write
 
-## `adduser` {#adduser}
+## `adduser` {#adduser status=beta}
 
 TODO: to write
 
-## `useradd` {#useradd}
+## `useradd` {#useradd status=beta}
 
 TODO: to write
 
 
-# Downloading {#download-utils status=draft}
+# Downloading {#download-utils status=beta}
 
 
 ## `curl` {#curl}
@@ -271,21 +271,21 @@ TODO: to write
 
 TODO: to write
 
-# Shells and environments {#linux-shells status=draft}
+# Shells and environments {#linux-shells status=ready}
 
 ## `source` {#source}
 
-You can only do `source file_name` if the file can be executed by bash. 
+You can only do `source file_name` if the file can be executed by bash.
 
 ## `which` {#which}
 
-Tell you the /bin/ directory of your command. This is useful to distinguish which python you are using if you have virtualenv. 
+Tell you the /bin/ directory of your command. This is useful to distinguish which python you are using if you have virtualenv.
 
-## `export` {#export}
+## `export` {#export status=beta}
 
 TODO: to write
 
-# Other misc commands {#linux-misc status=draft}
+# Other misc commands {#linux-misc status=beta}
 
 
 ## `pgrep`

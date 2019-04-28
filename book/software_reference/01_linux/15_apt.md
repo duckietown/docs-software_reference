@@ -1,4 +1,4 @@
-# Ubuntu packaging with APT {#apt status=draft}
+# Ubuntu packaging with APT {#apt status=beta}
 
 ## `apt install`
 
