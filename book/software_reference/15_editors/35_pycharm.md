@@ -1,3 +1,3 @@
-# PyCharm {#pycharm status=draft}
+# PyCharm {#pycharm status=beta}
 
 TODO: to write.

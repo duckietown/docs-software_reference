@@ -1,7 +1,6 @@
-# Slack {#slack status=draft}
+# Slack {#slack status=ready}
 
 Many of the Duckietown communities use Slack for private messaging.
-
 
 ## Installing the Slack app on Linux
 
@@ -19,6 +18,6 @@ TODO: to write how
 
 ## Disabling Slack pop-up notification on the desktop {#disable-slack-notifications}
 
-Also remove pop up notifications from the app. It should be a discrete notification that says "hey, when you have some time, look at Twist", not "HEY HEY HEY PAY ATTENTION TO ME NOW".
+Also remove pop up notifications from the app. It should be a discrete notification that says "hey, when you have some time, look at Slack", not "HEY HEY HEY PAY ATTENTION TO ME NOW".
 
 TODO: to write procedure

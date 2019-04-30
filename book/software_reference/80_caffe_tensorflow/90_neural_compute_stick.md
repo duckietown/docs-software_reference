@@ -1,4 +1,4 @@
-# Movidius Neural Compute Stick Install {#ncsdk-install status=draft}
+# Movidius Neural Compute Stick Install {#ncsdk-install status=ready}
 
 ## Laptop Installation
 install based on [ncsdk website](https://movidius.github.io/ncsdk/install.html)
@@ -50,14 +50,14 @@ install sdk:
     make examples
 
 
-# How To Use Neural Compute Stick {#ncsdk-how-to status=draft}
+# How To Use Neural Compute Stick {#ncsdk-how-to status=ready}
 
 ## Workflow
 
 create and train model in tensorflow or caffe (brief note on [configuration](https://movidius.github.io/ncsdk/configure_network.html) )
 
 save tensorflow model as a `.meta`  (or caffe model in `.prototxt`)
-    
+
     saver = tf.train.Saver()
     ...
     saver.save(sess, '![model]')
@@ -66,9 +66,9 @@ compile the model into NC format (documentation [here](https://movidius.github.i
 
 
     mvNCCompile ![model].meta -o ![model].graph
-    
 
-move model onto duckiebot 
+
+move model onto duckiebot
 
     scp ![model].meta ![user]@![robot name]:~/path_to_networks/
 
@@ -83,9 +83,7 @@ run the compiled model
 ## Benchmarking
 
 get benchmarking (frames per second) from their app zoo
-    
+
     git clone https://github.com/movidius/ncappzoo
     cd ncappzoo/apps/benchmarkncs
     ./mobilenets_benchmark.sh | grep FPSk
-
-

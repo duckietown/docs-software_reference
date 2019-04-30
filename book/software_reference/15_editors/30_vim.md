@@ -1,7 +1,7 @@
 
 # VIM {#vim status=ready}
 
-Assigned: Andrea Censi
+
 
 
 To do quick changes to files, especially when logged remotely,
@@ -18,7 +18,7 @@ Install like this:
     $ sudo apt install vim
 
 
-## `vi` {#vi status=draft}
+## `vi` {#vi status=beta}
 
 TODO: to write
 
@@ -35,7 +35,7 @@ Suggested `~/.vimrc`:
 
 <!-- autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,( -->
 
-## Visual mode {status=draft}
+## Visual mode {status=beta}
 
 TODO: to write
 
