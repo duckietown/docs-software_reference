@@ -11,8 +11,8 @@ jobs:
         resource_class: large
         steps:
         - run:
-          name: "Adjust ssh settings for github"
-          command: |
+           name: "Adjust ssh settings for github"
+           command: |
             mkdir -p ~/.ssh/
             echo -e "\nHost github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
         - checkout
